@@ -183,5 +183,5 @@ i = 0;
 
 while (i < 20) {
   print(`${i} menor que 20, incremento de 2`);
-  i =  i + 2
+  i =  i + 2;
 }
