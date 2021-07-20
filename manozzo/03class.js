@@ -173,7 +173,7 @@ do {
 print("Exercício 07");
 
 for (i = 0; i < 15; i++) {
-  print(`${i} é menor que 15 no FOR`)
+  print(`${i} é menor que 15 no FOR`);
 }
 
 //Exercício 08
@@ -183,5 +183,90 @@ i = 0;
 
 while (i < 20) {
   print(`${i} menor que 20, incremento de 2`);
-  i =  i + 2
+  i = i + 2;
 }
+
+// Exercício 09
+print("Exercício 09");
+
+i = 0;
+
+do {
+  print(`${i} é menor que 20 no DO WHILE.`);
+  i = i + 2;
+} while (i < 20);
+
+//Exercício 10
+print("Exercício 10");
+
+for (i = 0; i < 20; i = i + 2) {
+  print(`${i} é menor que 20 no FOR`);
+}
+
+// Exercício 11
+print("Exercício 11");
+
+i = 1;
+
+while (i <= 20) {
+  if (i % 2 == 0) {
+    print(i);
+  }
+  i++;
+}
+
+// Exercício 12
+print("Exercício 12");
+
+i = 1;
+
+do {
+  if (i % 2 == 0) {
+    print(i);
+  }
+  i++;
+} while (i <= 20);
+
+// Exercício 13
+print("Exercício 13");
+
+for (i = 1; i <= 20; i++) {
+  if (i % 2 == 0) {
+    print(i);
+  }
+}
+
+// Exercício 14
+print("Exercício 14");
+
+i = 1;
+
+while (i <= 20) {
+  if (i % 2 != 0) {
+    print(i);
+  }
+  i++;
+}
+
+// Exercício 15
+print("Exercício 15");
+
+i = 1;
+
+do {
+  if (i % 2 != 0) {
+    print(i);
+  }
+  i++;
+} while (i <= 20);
+
+// Exercício 16
+print("Exercício 16");
+
+for (i = 1; i <= 20; i++) {
+  if (i % 2 != 0) {
+    print(i);
+  }
+}
+
+
