@@ -1,2 +1,2 @@
-# js-lessons
-Examples and exercises for javascript class in Harve school
+# JavaScript lessons
+Examples and exercises for javascript class at Harve Inovation School
